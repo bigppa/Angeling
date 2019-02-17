@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:background="@mipmap/city_back"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView_city"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:drawableBottom="@mipmap/longbar"
+            android:gravity="center"
+            android:text="시/도"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView_country"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="구/군/시"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@mipmap/city_list_back"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:weightSum="1">
+
+        <ListView
+            android:layout_marginBottom="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:dividerHeight="0px"
+            android:divider="#ffffff"
+            android:layout_weight="0.5"
+            android:id="@+id/city_list_1"/>
+
+        <ListView
+            android:layout_marginBottom="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:dividerHeight="0px"
+            android:divider="#ffffff"
+            android:layout_weight="0.5"
+            android:id="@+id/city_list_2"/>
+    </LinearLayout>
+
+</LinearLayout>

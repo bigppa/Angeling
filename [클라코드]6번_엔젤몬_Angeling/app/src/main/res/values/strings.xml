@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Angeling</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_done">완료</string>
+
+    <string-array name="distance">
+        <item>거리순</item>
+        <item name="1km">5km</item>
+        <item name="2km">10km</item>
+        <item name="3km">15km</item>
+    </string-array>
+
+</resources>

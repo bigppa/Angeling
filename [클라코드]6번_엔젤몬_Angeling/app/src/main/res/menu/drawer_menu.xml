@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="테마별 봉사">
+        <menu>
+            <item
+                android:id="@+id/env"
+                android:title="환경보호"/>
+            <item
+                android:id="@+id/edu"
+                android:title="지식나눔"/>
+            <item
+                android:id="@+id/local"
+                android:title="지역센터"/>
+            <item
+                android:id="@+id/ali"
+                android:title="소외계층"/>
+            <item
+                android:id="@+id/living"
+                android:title="생활편의"/>
+            <item
+                android:id="@+id/other"
+                android:title="기타"/>
+        </menu>
+    </item>
+    <item android:title="지역별 봉사">
+        <menu>
+            <item
+                android:id="@+id/seoul"
+                android:title="서울"/>
+            <item
+                android:id="@+id/gyeonggi"
+                android:title="경기"/>
+            <item
+                android:id="@+id/busan"
+                android:title="부산"/>
+            <item
+                android:id="@+id/etc"
+                android:title="기타"/>
+        </menu>
+    </item>
+
+</menu>
